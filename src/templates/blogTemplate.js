@@ -15,16 +15,10 @@ export default function Template({
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
         <script type="application/ld+json">{`
-            "@context": "https://schema.org/",
-            "@type": "Recipe",
-            "name": "Party Coffee Cake",
-            "author": {
-              "@type": "Person",
-              "name": "Mary Stone"
-            },
-            "datePublished": "2018-03-10",
-            "description": "This coffee cake is awesome and perfect for parties.",
-            "prepTime": "PT20M"
+          {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "${this.state.title}"
           }
         `}</script>
       </Helmet>

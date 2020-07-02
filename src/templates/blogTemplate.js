@@ -14,6 +14,20 @@ export default function Template({
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org/",
+            "@type": "Recipe",
+            "name": "Party Coffee Cake",
+            "author": {
+              "@type": "Person",
+              "name": "Mary Stone"
+            },
+            "datePublished": "2018-03-10",
+            "description": "This coffee cake is awesome and perfect for parties.",
+            "prepTime": "PT20M"
+          }
+        </script>
       </Helmet>
       <div className="blog-post-container">
         <article className="post">

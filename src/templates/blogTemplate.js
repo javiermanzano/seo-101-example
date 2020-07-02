@@ -30,6 +30,7 @@ export default function Template({
                 "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
                 "eventStatus": "https://schema.org/EventScheduled",
                 "image": ["https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=auto,q=80,fit=contain/content_image/2019/10/3/1570143993215-muse-en-cdmx-resena-del-concierto-3.jpeg"],
+                "url": "https://awesome-bhaskara-e6220a.netlify.app/remark-kitchen-sink",
                 "location": {
                   "@type": "Place",
                   "name": "Madrid",
@@ -45,9 +46,9 @@ export default function Template({
                 "description": "Really great talk.",
                 "offers": {
                   "@type": "Offer",
-                  "url": "https://www.example.com/event_offer/12345_201803180430",
+                  "url": "https://awesome-bhaskara-e6220a.netlify.app/remark-kitchen-sink",
                   "price": "30",
-                  "priceCurrency": "USD",
+                  "priceCurrency": "EUR",
                   "availability": "https://schema.org/InStock",
                   "validFrom": "2024-05-21T12:00"
                 },
@@ -58,7 +59,7 @@ export default function Template({
                 "organizer": {
                   "@type": "Organization",
                   "name": "Soamee",
-                  "url": "http://soanee.com"
+                  "url": "http://soamee.com"
                 }
               }
             `}

@@ -18,7 +18,7 @@ export default function Template({
           {
             "@context": "http://schema.org",
             "@type": "WebSite",
-            "name": "${this.state.title}"
+            "name": "test"
           }
         `}</script>
       </Helmet>

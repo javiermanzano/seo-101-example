@@ -29,7 +29,7 @@ export default function Template({
                 "endDate": "2025-07-21T23:00-05:00",
                 "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
                 "eventStatus": "https://schema.org/EventScheduled",
-                "image": ["https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=auto,q=80,fit=contain/content_image/2019/10/3/1570143993215-muse-en-cdmx-resena-del-concierto-3.jpeg"],
+                "image": "https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=auto,q=80,fit=contain/content_image/2019/10/3/1570143993215-muse-en-cdmx-resena-del-concierto-3.jpeg",
                 "url": "https://awesome-bhaskara-e6220a.netlify.app/remark-kitchen-sink",
                 "location": {
                   "@type": "Place",

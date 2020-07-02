@@ -8,19 +8,18 @@ export default function Template({
 }) {
   const { site, markdownRemark } = data // data.markdownRemark holds your post data
   const { siteMetadata } = site
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html } = markdownRemark;
+  const dataStructured = {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "test"
+  };
   return (
     <Layout>
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
-        <script type="application/ld+json">{`
-          {
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "name": "test"
-          }
-        `}</script>
+        <script type="application/ld+json">{JSON.stringify(dataStructured)}</script>
       </Helmet>
       <div className="blog-post-container">
         <article className="post">

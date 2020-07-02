@@ -23,13 +23,41 @@ export default function Template({
           {`
               {
                 "@context": "https://schema.org",
-                "@type": "Organization",
-                "url": "https://www.spookytech.com",
-                "name": "Spooky technologies",
-                "contactPoint": {
-                  "@type": "ContactPoint",
-                  "telephone": "+5-601-785-8543",
-                  "contactType": "Customer Support"
+                "@type": "Event",
+                "name": "Event Name",
+                "startDate": "2025-07-21T19:00-05:00",
+                "endDate": "2025-07-21T23:00-05:00",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                "eventStatus": "https://schema.org/EventScheduled",
+                "location": {
+                  "@type": "Place",
+                  "name": "Madrid",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Paseo de la Castellana, 42",
+                    "addressLocality": "Madrid",
+                    "postalCode": "28020",
+                    "addressRegion": "MAD",
+                    "addressCountry": "ESP"
+                  }
+                },
+                "description": "Really great talk.",
+                "offers": {
+                  "@type": "Offer",
+                  "url": "https://www.example.com/event_offer/12345_201803180430",
+                  "price": "30",
+                  "priceCurrency": "USD",
+                  "availability": "https://schema.org/InStock",
+                  "validFrom": "2024-05-21T12:00"
+                },
+                "performer": {
+                  "@type": "PerformingGroup",
+                  "name": "Giorgio"
+                },
+                "organizer": {
+                  "@type": "Organization",
+                  "name": "Soamee",
+                  "url": "http://soanee.com"
                 }
               }
             `}

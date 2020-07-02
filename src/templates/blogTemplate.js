@@ -19,7 +19,21 @@ export default function Template({
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
-        <script type="application/ld+json">{JSON.stringify(dataStructured)}</script>
+        <script type="application/ld+json">
+          {`
+              {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "url": "https://www.spookytech.com",
+                "name": "Spooky technologies",
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+5-601-785-8543",
+                  "contactType": "Customer Support"
+                }
+              }
+            `}
+        </script>
       </Helmet>
       <div className="blog-post-container">
         <article className="post">

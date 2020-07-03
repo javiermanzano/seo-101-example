@@ -2,7 +2,7 @@
 template: BlogPost
 path: /video-post
 date: 2020-02-20T15:05:49.332Z
-title: Post with Youtube Video embed
+title: ¿Como montar un bot para scrappear KS hasta en tu email?
 thumbnail: /assets/image-1.jpg
 ---
 I have embedded a youtude video in this page. By adding HTML to the markdown

@@ -57,8 +57,15 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-dark-mode',
-    // siteURL is a must for sitemap generation
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://awesome-bhaskara-e6220a.netlify.app/',
+        sitemap: 'https://awesome-bhaskara-e6220a.netlify.app/sitemap.xml',
+        policy: [{ userAgent: '*', disallow: ['/'] }]
+      }
+    }
   ],
 }

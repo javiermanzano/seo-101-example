@@ -58,8 +58,8 @@ export default function Template({
                 },
                 "organizer": {
                   "@type": "Organization",
-                  "name": "Soamee",
-                  "url": "http://soamee.com"
+                  "name": "Guidesmiths",
+                  "url": "https://guidesmiths.com"
                 }
               }
             `}

@@ -3,7 +3,7 @@
   "siteUrl": "https://delog-w3layouts.netlify.com/",
   "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
   "home": {
-    "title": "Friday's Talks",
-    "description": "Events based on talks given at Soamee"
+    "title": "Knowledge Sharing Events",
+    "description": "Events based on talks given at Guidesmiths"
   }
 }

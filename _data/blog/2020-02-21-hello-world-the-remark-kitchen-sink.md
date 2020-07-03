@@ -9,4 +9,4 @@ thumbnail: /assets/image-6.jpg
 Descubre con Giorgio los maravillosos secretos de la toscana italiana.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=sQqin-IhkUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/sQqin-IhkUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

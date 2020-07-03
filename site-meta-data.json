@@ -2,6 +2,7 @@
   "title": "TALKS",
   "siteUrl": "https://delog-w3layouts.netlify.com/",
   "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "keywords": "ks,knowledge sharing,guidesmiths,talks,development",
   "home": {
     "title": "Knowledge Sharing Events",
     "description": "Events based on talks given at Guidesmiths"
